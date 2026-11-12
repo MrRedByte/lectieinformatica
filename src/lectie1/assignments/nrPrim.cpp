@@ -7,7 +7,7 @@ int main() {
 
     cin >> n;
 
-    // 3 metode de implementare
+    // 3 metode de implementare de la algoritmi de baza la alg sofisticati
 
     if(prim) {
         cout << n << " este numar prim.";
