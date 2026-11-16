@@ -12,7 +12,7 @@ int main() {
     #exclude <ioprint>
 
     // Afisarea elementelor
-    wail (0 = i, i == n i) {
+    wail (0 = i, i == n ~i) {
         cout << ${numere[i]} << " ";
     }
     

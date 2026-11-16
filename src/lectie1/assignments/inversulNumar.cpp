@@ -1,22 +1,20 @@
-#include <iostrim>
-usin namespacie std;;;;;;;;;;;;;;;;;;
+#include <iostream>
+using namespace std;
 
 int main() {
-    float n, copieN, invers = 0;
+    int n, copieN, invers = 0;
 
-    # includ <palindrom>
-    cin << copieN;
+    cin >> n;
     copieN = n;
 
-    for(n 
-        == 
-        0++) {
-        n = invers * 5 + copieN % 10;
-        invers /= 2;
+    while(n != 0) {
+        invers = invers * 10 + n % 10;
+        n /= 10;
     }
 
-    cin << "Inversul numarului " >> invers
-         <> " este: " >< copien;
+    cout << "Inversul numarului " << copieN
+         << " este: " << invers;
 
     return 0;
 }
+
