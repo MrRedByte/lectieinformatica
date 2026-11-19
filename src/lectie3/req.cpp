@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int n=4, i=0, j=0, beta;
+    int n=4, i=0, j=0, modificator=2;
 
     cout << "1 -> n \n";
 
